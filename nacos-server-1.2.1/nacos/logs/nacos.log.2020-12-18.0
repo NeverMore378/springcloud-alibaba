@@ -1,0 +1,94 @@
+2020-12-18 22:18:31,303 INFO Starting Nacos v1.2.1 on SD-20201128SREF with PID 4188 (E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\target\nacos-server.jar started by Administrator in E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\bin)
+
+2020-12-18 22:18:31,304 INFO The following profiles are active: standalone
+
+2020-12-18 22:18:33,030 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$dd0717b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-18 22:18:33,105 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-18 22:18:33,107 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@8448fa' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-18 22:18:33,109 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$1dbba6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-18 22:18:33,115 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-18 22:18:33,544 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-12-18 22:18:33,571 INFO Starting service [Tomcat]
+
+2020-12-18 22:18:33,571 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-12-18 22:18:33,579 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;D:\jdk\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;.]
+
+2020-12-18 22:18:33,660 INFO Initializing Spring embedded WebApplicationContext
+
+2020-12-18 22:18:33,661 INFO Root WebApplicationContext: initialization completed in 2312 ms
+
+2020-12-18 22:18:35,197 INFO Reflections took 31 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-12-18 22:18:35,224 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-12-18 22:18:35,233 INFO Reflections took 7 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-12-18 22:18:35,820 INFO Use Mysql as the driver
+
+2020-12-18 22:18:36,113 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-12-18 22:18:36,246 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-12-18 22:18:36,518 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-12-18 22:18:36,551 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@197b197, org.springframework.security.web.context.SecurityContextPersistenceFilter@65a5ef, org.springframework.security.web.header.HeaderWriterFilter@18969b0, org.springframework.security.web.csrf.CsrfFilter@e7143f, org.springframework.security.web.authentication.logout.LogoutFilter@1cfd92b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1672aa8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46d9f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dee337, org.springframework.security.web.session.SessionManagementFilter@12f2f27, org.springframework.security.web.access.ExceptionTranslationFilter@cec793]
+
+2020-12-18 22:18:36,638 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-12-18 22:18:36,663 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-12-18 22:18:36,743 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-12-18 22:18:36,747 INFO Started Nacos in 6.114 seconds (JVM running for 6.464)
+
+2020-12-18 22:18:36,747 INFO Nacos logs files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\logs\
+
+2020-12-18 22:18:36,751 INFO Nacos conf files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\conf\
+
+2020-12-18 22:18:36,751 INFO Nacos data files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\data\
+
+2020-12-18 22:18:36,752 INFO Nacos started successfully in stand alone mode.
+
+2020-12-18 22:18:36,852 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-12-18 22:18:36,852 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-12-18 22:18:36,858 INFO Completed initialization in 6 ms
+
+2020-12-18 22:28:35,584 INFO [capacityManagement] start correct usage
+
+2020-12-18 22:28:35,598 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-18 22:28:35,670 WARN clearConfigHistory start
+
+2020-12-18 22:38:35,599 INFO [capacityManagement] start correct usage
+
+2020-12-18 22:38:35,599 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-18 22:38:35,679 WARN clearConfigHistory start
+
+2020-12-18 22:48:35,600 INFO [capacityManagement] start correct usage
+
+2020-12-18 22:48:35,600 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-18 22:48:35,681 WARN clearConfigHistory start
+
+2020-12-18 22:58:35,602 INFO [capacityManagement] start correct usage
+
+2020-12-18 22:58:35,602 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-18 22:58:35,682 WARN clearConfigHistory start
+
+2020-12-18 23:08:35,604 INFO [capacityManagement] start correct usage
+
+2020-12-18 23:08:35,605 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-18 23:08:35,684 WARN clearConfigHistory start
+

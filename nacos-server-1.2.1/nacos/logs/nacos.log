@@ -1,0 +1,570 @@
+2020-12-19 13:06:02,135 INFO Starting Nacos v1.2.1 on SD-20201128SREF with PID 13176 (E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\target\nacos-server.jar started by Administrator in E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\bin)
+
+2020-12-19 13:06:02,139 INFO The following profiles are active: standalone
+
+2020-12-19 13:06:04,006 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$78c54962] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:06:04,093 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:06:04,098 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@19a307b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:06:04,099 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$9d99ec14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:06:04,103 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:06:04,648 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-12-19 13:06:04,678 INFO Starting service [Tomcat]
+
+2020-12-19 13:06:04,678 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-12-19 13:06:04,687 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;.]
+
+2020-12-19 13:06:04,774 INFO Initializing Spring embedded WebApplicationContext
+
+2020-12-19 13:06:04,774 INFO Root WebApplicationContext: initialization completed in 2587 ms
+
+2020-12-19 13:06:06,322 INFO Reflections took 30 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-12-19 13:06:06,357 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-12-19 13:06:06,363 INFO Reflections took 3 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-12-19 13:06:07,030 INFO Use Mysql as the driver
+
+2020-12-19 13:06:07,422 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-12-19 13:06:07,570 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-12-19 13:06:07,870 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-12-19 13:06:07,907 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@828f6b, org.springframework.security.web.context.SecurityContextPersistenceFilter@335fa8, org.springframework.security.web.header.HeaderWriterFilter@260bdc, org.springframework.security.web.csrf.CsrfFilter@64b240, org.springframework.security.web.authentication.logout.LogoutFilter@990c1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1829ac1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1eebbff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1be250d, org.springframework.security.web.session.SessionManagementFilter@183717b, org.springframework.security.web.access.ExceptionTranslationFilter@d10c1a]
+
+2020-12-19 13:06:08,001 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-12-19 13:06:08,027 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-12-19 13:06:08,117 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-12-19 13:06:08,121 INFO Started Nacos in 6.765 seconds (JVM running for 7.206)
+
+2020-12-19 13:06:08,121 INFO Nacos logs files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\logs\
+
+2020-12-19 13:06:08,123 INFO Nacos conf files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\conf\
+
+2020-12-19 13:06:08,125 INFO Nacos data files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\data\
+
+2020-12-19 13:06:08,125 INFO Nacos started successfully in stand alone mode.
+
+2020-12-19 13:06:08,236 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-12-19 13:06:08,236 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-12-19 13:06:08,244 INFO Completed initialization in 7 ms
+
+2020-12-19 13:16:06,760 INFO [capacityManagement] start correct usage
+
+2020-12-19 13:16:06,771 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-19 13:16:06,861 WARN clearConfigHistory start
+
+2020-12-19 13:26:06,773 INFO [capacityManagement] start correct usage
+
+2020-12-19 13:26:06,773 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-19 13:26:06,866 WARN clearConfigHistory start
+
+2020-12-19 13:42:49,274 INFO Starting Nacos v1.2.1 on SD-20201128SREF with PID 16976 (E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\target\nacos-server.jar started by Administrator in E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\bin)
+
+2020-12-19 13:42:49,276 INFO The following profiles are active: standalone
+
+2020-12-19 13:42:50,488 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$67a2cb20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:42:50,544 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:42:50,546 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@740fb309' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:42:50,546 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$8c776dd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:42:50,548 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 13:42:51,018 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-12-19 13:42:51,036 INFO Starting service [Tomcat]
+
+2020-12-19 13:42:51,036 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-12-19 13:42:51,046 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;D:\jdk\bin;E:\Xshell 7\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;.]
+
+2020-12-19 13:42:51,109 INFO Initializing Spring embedded WebApplicationContext
+
+2020-12-19 13:42:51,109 INFO Root WebApplicationContext: initialization completed in 1799 ms
+
+2020-12-19 13:42:52,250 INFO Reflections took 25 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-12-19 13:42:52,273 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-12-19 13:42:52,278 INFO Reflections took 2 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-12-19 13:42:53,009 INFO Use Mysql as the driver
+
+2020-12-19 13:42:53,225 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-12-19 13:42:53,338 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-12-19 13:42:53,536 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-12-19 13:42:53,554 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2756c0a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c51bb7, org.springframework.security.web.header.HeaderWriterFilter@65a4798f, org.springframework.security.web.csrf.CsrfFilter@2e54db99, org.springframework.security.web.authentication.logout.LogoutFilter@7d3430a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42a9e5d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b54655f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@350ec41e, org.springframework.security.web.session.SessionManagementFilter@878452d, org.springframework.security.web.access.ExceptionTranslationFilter@4f2613d1]
+
+2020-12-19 13:42:53,606 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-12-19 13:42:53,623 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-12-19 13:42:53,686 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-12-19 13:42:53,690 INFO Started Nacos in 5.035 seconds (JVM running for 5.407)
+
+2020-12-19 13:42:53,690 INFO Nacos logs files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\logs\
+
+2020-12-19 13:42:53,692 INFO Nacos conf files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\conf\
+
+2020-12-19 13:42:53,692 INFO Nacos data files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\data\
+
+2020-12-19 13:42:53,692 INFO Nacos started successfully in stand alone mode.
+
+2020-12-19 13:42:53,772 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-12-19 13:42:53,772 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-12-19 13:42:53,777 INFO Completed initialization in 5 ms
+
+2020-12-19 13:51:06,365 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:51:06,365 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:51:06,562 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:51:06,562 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:51:36,066 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:51:36,066 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:51:52,427 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:51:52,427 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:51:52,626 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:51:52,626 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:52:05,569 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:52:05,569 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:52:35,073 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:52:35,073 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:52:43,358 INFO listen config id:pay.propertiesSEATA_GROUPpublic
+
+2020-12-19 13:52:43,358 INFO listen config id 2:pay.propertiesSEATA_GROUPpublic
+
+2020-12-19 13:52:43,360 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:52:43,360 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:52:43,559 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:52:43,559 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 13:52:52,627 INFO [capacityManagement] start correct usage
+
+2020-12-19 13:52:52,635 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-19 13:52:52,735 WARN clearConfigHistory start
+
+2020-12-19 13:53:04,576 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:53:04,576 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:53:34,078 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:53:34,078 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:54:03,580 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:54:03,580 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:54:33,084 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:54:33,084 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:55:02,587 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:55:02,587 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:55:32,089 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:55:32,090 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:56:01,591 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:56:01,591 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:56:31,093 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:56:31,093 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:57:00,597 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:57:00,597 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:57:30,099 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:57:30,099 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:57:59,602 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:57:59,602 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:58:29,105 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:58:29,105 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:58:58,607 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:58:58,607 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:59:28,111 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:59:28,111 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:59:57,613 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 13:59:57,613 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:00:27,114 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:00:27,114 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:00:57,351 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:00:57,351 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:00:57,550 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:00:57,550 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:02:52,636 INFO [capacityManagement] start correct usage
+
+2020-12-19 14:02:52,636 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-19 14:02:52,740 WARN clearConfigHistory start
+
+2020-12-19 14:04:20,076 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:04:20,076 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:04:20,284 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:04:20,284 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:04:49,787 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:04:49,787 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:05:03,627 INFO listen config id:pay.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:05:03,627 INFO listen config id 2:pay.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:05:03,629 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:05:03,629 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:05:03,830 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:05:03,830 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:05:19,290 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:05:19,290 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:05:48,794 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:05:48,794 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:06:18,297 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:06:18,297 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:06:46,619 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:06:46,619 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:06:46,819 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:06:46,819 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:06:47,799 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:06:47,799 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:07:16,323 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:07:16,323 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:07:17,302 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:07:17,302 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:07:45,827 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:07:45,827 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:08:05,572 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:08:05,573 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:08:35,076 INFO listen config id:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:08:35,076 INFO listen config id 2:order.propertiesSEATA_GROUPpublicorderSEATA_GROUPpublic
+
+2020-12-19 14:08:47,226 INFO listen config id:pay.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:08:47,226 INFO listen config id 2:pay.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:08:47,227 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:08:47,227 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:08:47,428 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:08:47,428 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:21:40,568 INFO Starting Nacos v1.2.1 on SD-20201128SREF with PID 7984 (E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\target\nacos-server.jar started by Administrator in E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\bin)
+
+2020-12-19 14:21:40,570 INFO The following profiles are active: standalone
+
+2020-12-19 14:21:41,859 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$bf9dd51f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 14:21:43,843 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 14:21:43,845 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5b799640' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 14:21:43,845 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e47277d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 14:21:43,848 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-12-19 14:21:44,332 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-12-19 14:21:44,350 INFO Starting service [Tomcat]
+
+2020-12-19 14:21:44,350 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-12-19 14:21:44,359 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;E:\Xshell 7\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;.]
+
+2020-12-19 14:21:44,425 INFO Initializing Spring embedded WebApplicationContext
+
+2020-12-19 14:21:44,425 INFO Root WebApplicationContext: initialization completed in 3817 ms
+
+2020-12-19 14:21:45,828 INFO Reflections took 30 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-12-19 14:21:45,861 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-12-19 14:21:45,866 INFO Reflections took 2 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-12-19 14:21:46,668 INFO Use Mysql as the driver
+
+2020-12-19 14:21:46,940 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-12-19 14:21:47,061 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-12-19 14:21:47,276 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-12-19 14:21:47,295 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55e8ec2f, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fc44dec, org.springframework.security.web.header.HeaderWriterFilter@5b408dc3, org.springframework.security.web.csrf.CsrfFilter@56276db8, org.springframework.security.web.authentication.logout.LogoutFilter@74cadd41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@293d0107, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62fad19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f2613d1, org.springframework.security.web.session.SessionManagementFilter@2dbf4cbd, org.springframework.security.web.access.ExceptionTranslationFilter@56f6d40b]
+
+2020-12-19 14:21:47,347 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-12-19 14:21:47,362 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-12-19 14:21:47,425 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-12-19 14:21:47,428 INFO Started Nacos in 7.499 seconds (JVM running for 7.94)
+
+2020-12-19 14:21:47,429 INFO Nacos logs files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\logs\
+
+2020-12-19 14:21:47,437 INFO Nacos conf files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\conf\
+
+2020-12-19 14:21:47,441 INFO Nacos data files: E:\BaiduNetdiskDownload\B站直播Spring Cloud Alibaba\安装包\nacos-server-1.2.1\nacos\data\
+
+2020-12-19 14:21:47,441 INFO Nacos started successfully in stand alone mode.
+
+2020-12-19 14:21:47,508 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-12-19 14:21:47,508 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-12-19 14:21:47,514 INFO Completed initialization in 6 ms
+
+2020-12-19 14:23:25,749 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:23:25,750 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:23:25,948 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:23:25,948 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:24:13,596 INFO listen config id:test.yamlSEATA_GROUPpublictestSEATA_GROUPpublic
+
+2020-12-19 14:24:13,596 INFO listen config id 2:test.yamlSEATA_GROUPpublictestSEATA_GROUPpublic
+
+2020-12-19 14:24:13,795 INFO listen config id:test.yamlSEATA_GROUPpublictestSEATA_GROUPpublic
+
+2020-12-19 14:24:13,795 INFO listen config id 2:test.yamlSEATA_GROUPpublictestSEATA_GROUPpublic
+
+2020-12-19 14:25:03,988 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:25:03,988 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:25:04,187 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:25:04,187 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:25:33,690 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:25:33,690 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:26:03,193 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:26:03,193 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:26:32,697 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:26:32,697 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:27:02,200 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:27:02,200 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:27:31,702 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:27:31,702 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:27:41,374 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:27:41,375 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:27:41,574 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:27:41,574 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:28:01,205 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:28:01,205 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:28:11,078 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:28:11,078 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:28:30,710 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:28:30,710 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:29:00,212 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:29:00,212 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:29:29,714 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:29:29,714 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:29:59,217 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:29:59,217 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:30:28,719 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:30:28,720 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:30:58,222 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:30:58,222 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:31:27,725 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:31:27,725 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:31:46,268 INFO [capacityManagement] start correct usage
+
+2020-12-19 14:31:46,280 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-19 14:31:46,378 WARN clearConfigHistory start
+
+2020-12-19 14:31:53,346 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:31:53,346 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:31:53,545 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:31:53,545 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:31:57,227 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:31:57,227 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:32:23,048 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:32:23,048 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:32:26,730 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:32:26,730 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:32:52,553 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:32:52,553 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:33:06,239 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:33:06,239 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:33:22,054 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:33:22,054 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:33:35,742 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:33:35,742 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:33:51,556 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:33:51,556 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:34:05,244 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:34:05,244 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:34:21,059 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:34:21,059 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:34:34,747 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:34:34,747 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:34:50,562 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:34:50,562 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:35:11,524 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:35:11,525 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:35:20,064 INFO listen config id:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:35:20,064 INFO listen config id 2:pay.propertiesSEATA_GROUPpublicpaySEATA_GROUPpublic
+
+2020-12-19 14:35:41,028 INFO listen config id:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+
+2020-12-19 14:35:41,028 INFO listen config id 2:testSEATA_GROUPpublictest.propertiesSEATA_GROUPpublic
+

@@ -1,0 +1,10 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: pay
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: xia
+    password: root123456
+    url: jdbc:mysql://nevermore.top:3306/pay

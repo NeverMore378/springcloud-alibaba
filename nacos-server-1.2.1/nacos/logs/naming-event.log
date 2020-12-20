@@ -1,0 +1,8 @@
+2020-12-19 13:45:43,883 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [169.254.11.120:8090:unknown:default_1.0_true_false_default]
+
+2020-12-19 13:45:43,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 169.254.11.120:8090_true,
+
+2020-12-19 14:22:56,244 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [169.254.11.120:8090:unknown:default_1.0_true_false_default]
+
+2020-12-19 14:22:56,246 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 169.254.11.120:8090_true,
+

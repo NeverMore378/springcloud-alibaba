@@ -1,0 +1,10 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: xia
+    password: root123456
+    url: jdbc:mysql://nevermore.top:3306/order
